@@ -16,7 +16,7 @@
         }
         .project {
             margin-bottom: 40px;
-            border: 1px solid #ccc;
+            border: 2px solid black;
             padding: 20px;
             border-radius: 8px;
         }
@@ -28,22 +28,39 @@
             font-size: 16px;
             line-height: 1.8;
         }
+        .project img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>My Portfolio</h1>
+        <h1>Jacob Tuttle's Portfolio</h1>
 
         <div class="project">
             <h2>Project 1</h2>
             <p>Description of Project 1 goes here. Include details about what the project does, technologies used, and any special features.</p>
             <p><a href="" target="_blank">GitHub Repository</a></p>
+            <img src="path_to_your_image_1.jpg" alt="Project 1 Image">
         </div>
 
         <div class="project">
             <h2>Hiking Blog</h2>
-            <p>Description of Project 2 goes here. Similarly, include details about the project, technologies used, and any relevant information.</p>
+            <p> This is a blog focusing on hiking related topics, it features user
+                authentication, ability to make posts, and profile viewing for logged in users. The
+                website's data is managed through SQL database to maintain persistent posts in case
+                the server goes down. This also includes the login process for already registered
+                users and when a new user registers. Users will be required to sign in to a google
+                account through OAuth to create an account or to sign in to an already registered
+                one. User can also manage their account through a deletion feature and username
+                change feature.
+                </p>
             <p><a href="https://github.com/Jacob-Tuttle/Hiking-Blog" target="_blank">GitHub Repository</a></p>
+            <img src="img/SS1.png" alt="Project 2 Image">
+            <img src="img/SS2.png" alt="Project 2 Image">
+            <img src="img/SS4.png" alt="Project 2 Image">
         </div>
         
     </div>
